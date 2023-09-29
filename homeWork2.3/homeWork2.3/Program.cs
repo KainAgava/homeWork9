@@ -8,15 +8,15 @@ namespace homeWork2._3
 {
     internal class Program
     {
-        static void Main(string[] args)
+       static void Main(string[] args)
         {
-            int i;
-            int j = 7;
-            int max = 100;
+            int startCycle;
+            int variableCycle = 7;
+            int cycleCeiling = 100;
             //for т.к. известные "рамки" цикла
-            for (i = 5; i < max; i += j)
+            for (startCycle = 5; startCycle < cycleCeiling; startCycle += variableCycle)
             {
-                Console.WriteLine(i);
+                Console.WriteLine(startCycle);
             }
         }
     }
